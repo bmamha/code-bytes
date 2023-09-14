@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"type":"text","text":"\n\nWe construct our pair function to take in two values - x and y. The output is an anonymous procedure (lambda function) with yet undefined variable `m`. `m` will be replaced by another lambda function, if the `cons` function is called and another lambda function is supplied as input for `m`. ","id":"6eb794242ce6ea74","x":-1320,"y":-800,"width":359,"height":327},
+		{"type":"text","text":"```Scheme\n(define (car z)\n(z (lambda (p q) p)))\n```","id":"607bd62e912a15b4","x":-540,"y":-522,"width":250,"height":167},
+		{"type":"text","text":"## Substitution order evaluation\n```Scheme\n(car (cons a b))\n(z (lambda (p q) p) (cons a b)))\n(z (lambda (p q) p) (lambda (m) (m a b))\n(lambda (m) (m a b) (lambda (p q) p)))\n(lambda (p q) p) a b)\na\n```","id":"6c705c14d5be54ee","x":-220,"y":-400,"width":544,"height":215},
+		{"type":"text","text":"## Layman Terms\n`cons` - >[!notes] I will return a function which will be applied to my x and y variables but I still don't know what that function is.\n\n`car`- I will take your function as an input and not only return it but also supply the input (which is also a function) it needed to return a value. ","id":"64be0433749af8f8","x":-118,"y":-787,"width":478,"height":314},
+		{"type":"text","text":"As the procedure m is not yet specified. the function will only execute once we find out what `m` is, or `m` is provided as an additional argument to the function.","id":"1a39573f7167a5e4","x":-1173,"y":-200,"width":336,"height":190},
+		{"type":"text","text":"## Applicative Order Evaluation\n```Scheme\n(car (lambda (m) (m x y)))\n(lambda (m) (m x y) (lambda (p q) p))\n(lambda (p q) p) x y)\nx\n```\nSo `car` is applied to `cons` function. thus the `cons` output becomes input for the `car` function. The lamda function in `car` then becomes input for `m` in `cons` procedure. This will be applied to the `x` and `y` variables","id":"0436154ebfc150fa","x":-690,"y":-292,"width":400,"height":380},
+		{"type":"text","text":"### Summary\n```Scheme\n\ndefine (cons x y) (lambda (m) (m x y)))\n```\n`cons` returns a lambda procedure with input `m`, which is also a function yet to be determined. \n\n```Scheme\ndefine (car z) (z lambda(p q) p)))\n\n```\n`car` takes in a procedure as input and provides an input for the procedure which is also a lambda function. \nWhen `cons` function is an input for `car`\nit takes in the `lambda(p q) p` as an input for `m`. \n\n\nThat function will in turn be used for x and y inputs which were initially\n","id":"fba466891765b3b0","x":-197,"y":-105,"width":500,"height":420},
+		{"type":"text","text":"Example \n```Scheme\ncons 3 4\n(lambda (m) (m 3 4))\ncar (cons 3 4)\n(cons 3 4 (lambda p q) p)\n(lambda (m) (m 3 4) (lambda p q) p)\n((lambda (p q) p) 3 4)\n((lambda 3 4) 3)\n3\n```","id":"c200ac1f2c420f82","x":-689,"y":160,"width":440,"height":275},
+		{"type":"text","text":"```Scheme\n(define (cons x y)\n(lambda (m) (m x y))\n```","id":"5c96947fcb561ce8","x":-1048,"y":-400,"width":297,"height":145},
+		{"type":"text","text":"So in our situation the lambda function `lambda (p q) p` in `car` becomes `m` as it becomes the procedure to be applied to the `x` and `y` variables in `cons` function. And `cons` function is `z` in `car` function. ","id":"9f902299603cb2ed","x":-927,"y":-787,"width":260,"height":322,"color":"1"},
+		{"type":"text","text":"Our `car` function which is supposed to provide us the first element of a pair (constructed by the `cons` function) takes one argument ( a function) and supplies it with a procedure to be applied to it. So the requirement for the lambda function is to have two variables as inputs as the `m` procedure applies to two variables `x` and `y`.","id":"6ad8bf96eac2d843","x":-635,"y":-820,"width":440,"height":277},
+		{"type":"text","text":"# SICP Alternative construction of `cons` , `car` and `cdr`","id":"b5cfe26f5c7725d1","x":-774,"y":-960,"width":577,"height":80}
+	],
+	"edges":[
+		{"id":"35577fb07b68402f","fromNode":"6eb794242ce6ea74","fromSide":"bottom","toNode":"5c96947fcb561ce8","toSide":"top"},
+		{"id":"5c3025dfb0fb5ff7","fromNode":"5c96947fcb561ce8","fromSide":"bottom","toNode":"1a39573f7167a5e4","toSide":"top"},
+		{"id":"2472dc7a81ee5460","fromNode":"5c96947fcb561ce8","fromSide":"right","toNode":"607bd62e912a15b4","toSide":"left"},
+		{"id":"c73074445ae1f397","fromNode":"6ad8bf96eac2d843","fromSide":"bottom","toNode":"607bd62e912a15b4","toSide":"top"},
+		{"id":"16c8e2664f595a86","fromNode":"9f902299603cb2ed","fromSide":"bottom","toNode":"5c96947fcb561ce8","toSide":"top"},
+		{"id":"fcf544c49807b09b","fromNode":"9f902299603cb2ed","fromSide":"bottom","toNode":"607bd62e912a15b4","toSide":"left"},
+		{"id":"4675bda186366cda","fromNode":"0436154ebfc150fa","fromSide":"right","toNode":"6c705c14d5be54ee","toSide":"left"},
+		{"id":"babdda4a219e3b1f","fromNode":"0436154ebfc150fa","fromSide":"bottom","toNode":"c200ac1f2c420f82","toSide":"top"}
+	]
+}

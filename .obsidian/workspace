@@ -1,0 +1,132 @@
+{
+  "main": {
+    "id": "54eba50d7d43e5fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "3edb418f72867847",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5548aa6470631ad9",
+    "type": "split",
+    "children": [
+      {
+        "id": "671173b107e5de19",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9cc27a00e7b58f2f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e73dff54a032dec4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "aca3e87ea284555a",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "5acc1d4a8385d061",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9b4559999e0192f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0590e12aeaf40e5a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ed08a9112e4245fa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "90e012a0e76a3bff",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5b06a2e2532f28a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3edb418f72867847",
+  "lastOpenFiles": [
+    "conda environments.md",
+    "Seaborn bar chart snippets.md",
+    "Pandas_Cheat_Sheet.pdf",
+    "ipython kernel installation.md",
+    "download and save file using requests library.md"
+  ]
+}

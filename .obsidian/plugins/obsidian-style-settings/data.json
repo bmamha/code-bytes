@@ -1,0 +1,9 @@
+{
+  "minimal-style@@h1-color@@light": "#FFFFFF",
+  "minimal-style@@h3-color@@light": "#FFFFFF",
+  "minimal-style@@blockquote-background-color@@light": "#CDC9C9",
+  "minimal-style@@blockquote-border-thickness": 0,
+  "minimal-style@@hl2@@light": "#A01616",
+  "minimal-style@@ui2@@dark": "#000000",
+  "minimal-style@@ui2@@light": "#90A5127D"
+}

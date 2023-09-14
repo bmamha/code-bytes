@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"type":"text","text":"[My Map](https://www.freecodecamp.org/news/what-every-software-engineer-should-know/)\n","id":"3724390460541835","x":59,"y":-430,"width":260,"height":60},
+		{"type":"text","text":"### Start with fundamentals ","id":"eb8ded939ef534e2","x":-311,"y":-450,"width":250,"height":80},
+		{"type":"text","text":"### Programming","id":"eda44ad50b1842b9","x":-776,"y":-250,"width":250,"height":60},
+		{"type":"text","text":"[Structures and Inteprtetations of Programs Book](https://sarabander.github.io/sicp/html/index.xhtml#toc-Building-Abstractions-with-Procedures\n)","id":"43c35a2b36051647","x":-776,"y":-82,"width":190,"height":93},
+		{"type":"text","text":"[How to Design Programs](https://htdp.org/2023-5-12/Book/index.html)\n","id":"87055f23c2b67530","x":-541,"y":-80,"width":170,"height":65},
+		{"type":"text","text":"[Composing Programs with Python](http://composingprograms.com/)\n","id":"40565cb667594915","x":-801,"y":138,"width":175,"height":100},
+		{"type":"text","text":"[Lecture on Structure and Interpretatiion of Programs](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter)","id":"6103052d8791fa23","x":-546,"y":120,"width":187,"height":112},
+		{"type":"text","text":"### Architecture ","id":"29bbc610e21f6032","x":-221,"y":-250,"width":206,"height":60},
+		{"type":"text","text":"[Computer Systems: A Programmer's Perspective](http://csapp.cs.cmu.edu/3e/home.html)\n","id":"b6c92f0f07b0cd09","x":-288,"y":-59,"width":295,"height":70},
+		{"type":"text","text":"[Intro to Computer Systems Tutorial](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f16/www/schedule.html)\n","id":"f0ea40c37234ebbd","x":-265,"y":95,"width":250,"height":87},
+		{"type":"text","text":"[The Software Achitecture Handbook](https://www.freecodecamp.org/news/an-introduction-to-software-architecture-patterns/)\n","id":"edf0d0210c648a5b","x":29,"y":-71,"width":260,"height":95},
+		{"type":"text","text":"Read: The Hidden Language of Computer Hardware and Software\n","id":"2c2d04b55a36bd5f","x":49,"y":83,"width":220,"height":99},
+		{"type":"text","text":"Read: C Programming A Modern Approach\n","id":"2fa025ba97db6d7f","x":34,"y":238,"width":250,"height":60},
+		{"type":"text","text":"[Course: Building a Modern Computer from First Principles: From Nand to Tetris](https://www.coursera.org/learn/build-a-computer)\n","id":"3977673e341604c7","x":34,"y":370,"width":252,"height":80},
+		{"type":"text","text":"Grokking Algorithms\n","id":"676c6aa3f8b02062","x":679,"y":-77,"width":160,"height":62},
+		{"type":"text","text":"The Algorithm Design Manual\n","id":"40cee435b83bfb76","x":354,"y":-89,"width":165,"height":74},
+		{"type":"text","text":"## Algorithms and Data Structures","id":"bae336b7f6e060e6","x":284,"y":-250,"width":295,"height":90},
+		{"type":"text","text":"[Composing Programs:Python version tutorial](https://cs61a.org/)","id":"0d863cc751d07686","x":-838,"y":298,"width":250,"height":112}
+	],
+	"edges":[
+		{"id":"e0ffbb956375a901","fromNode":"eb8ded939ef534e2","fromSide":"right","toNode":"3724390460541835","toSide":"left"},
+		{"id":"b008d64c2f24fe3c","fromNode":"eb8ded939ef534e2","fromSide":"bottom","toNode":"eda44ad50b1842b9","toSide":"top"},
+		{"id":"cd1f9759b00dba46","fromNode":"eb8ded939ef534e2","fromSide":"bottom","toNode":"29bbc610e21f6032","toSide":"top"},
+		{"id":"69156d8482bc9959","fromNode":"eb8ded939ef534e2","fromSide":"bottom","toNode":"bae336b7f6e060e6","toSide":"top"},
+		{"id":"d1a5e53f7bdc2324","fromNode":"eda44ad50b1842b9","fromSide":"bottom","toNode":"43c35a2b36051647","toSide":"top"},
+		{"id":"9cb382a56e9e7b9a","fromNode":"eda44ad50b1842b9","fromSide":"bottom","toNode":"87055f23c2b67530","toSide":"top","label":"Easier"},
+		{"id":"44b15e617145f9c5","fromNode":"43c35a2b36051647","fromSide":"bottom","toNode":"40565cb667594915","toSide":"top"},
+		{"id":"132a3b8c94995d00","fromNode":"43c35a2b36051647","fromSide":"bottom","toNode":"6103052d8791fa23","toSide":"top"},
+		{"id":"7b7ef06bdb4d1e75","fromNode":"40565cb667594915","fromSide":"bottom","toNode":"0d863cc751d07686","toSide":"top"},
+		{"id":"5b5c2f175c79be0b","fromNode":"29bbc610e21f6032","fromSide":"bottom","toNode":"b6c92f0f07b0cd09","toSide":"top"},
+		{"id":"e059ed49ba91882b","fromNode":"29bbc610e21f6032","fromSide":"bottom","toNode":"edf0d0210c648a5b","toSide":"top","label":"Support"},
+		{"id":"574344c38a8879b2","fromNode":"b6c92f0f07b0cd09","fromSide":"bottom","toNode":"f0ea40c37234ebbd","toSide":"top"},
+		{"id":"3373d37b965f0f28","fromNode":"edf0d0210c648a5b","fromSide":"bottom","toNode":"2c2d04b55a36bd5f","toSide":"top"},
+		{"id":"6900a525b64230a0","fromNode":"2c2d04b55a36bd5f","fromSide":"bottom","toNode":"2fa025ba97db6d7f","toSide":"top"},
+		{"id":"34d314aab3c98041","fromNode":"2fa025ba97db6d7f","fromSide":"bottom","toNode":"3977673e341604c7","toSide":"top"},
+		{"id":"055350d99ef1cc91","fromNode":"bae336b7f6e060e6","fromSide":"bottom","toNode":"676c6aa3f8b02062","toSide":"top"},
+		{"id":"ae7ef0e111602509","fromNode":"bae336b7f6e060e6","fromSide":"bottom","toNode":"40cee435b83bfb76","toSide":"top"}
+	]
+}

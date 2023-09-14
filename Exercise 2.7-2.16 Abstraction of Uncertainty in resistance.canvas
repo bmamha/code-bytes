@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"type":"text","text":"```Scheme\n (define (lower-bound interval)\n    (min (car interval) (cdr interval)))\n```","id":"2f4f42c18a3d3dbe","x":-120,"y":-65,"width":420,"height":85},
+		{"type":"text","text":"# Calculate lower and upper bound of resistance","id":"7506af126f887612","x":210,"y":-200,"width":250,"height":80},
+		{"type":"text","text":"```Scheme\n (define (upper-bound interval)\n    (max (car interval) (cdr interval)))\n```","id":"cdb71fa01aa51a2f","x":520,"y":-65,"width":460,"height":85},
+		{"type":"text","text":"### Define Methods for Object","id":"097559f6b54858d2","x":270,"y":20,"width":250,"height":60},
+		{"type":"text","text":"### Add Intervals\n\n```Scheme\n(define (add-interval x y)\n  (make-interval (+ (lower-bound x) \n                    (lower-bound y))\n                 (+ (upper-bound x) \n                    (upper-bound y))))\n```","id":"be0b407818cdc901","x":-40,"y":160,"width":405,"height":260},
+		{"type":"text","text":"# Define resistance range as a pair\n```Scheme\n(define(make-interval a b) (cons a b))\n```","id":"7090714c5df88773","x":310,"y":-360,"width":440,"height":100},
+		{"id":"13d1c5abcc134cae","type":"text","text":"Divide intervals\n```Scheme\n(define (div-interval x y)\n  (mul-interval x \n                (make-interval \n                 (/ 1.0 (upper-bound y)) \n                 (/ 1.0 (lower-bound y)))))\n```","x":1060,"y":170,"width":480,"height":240},
+		{"type":"text","text":"### Multiply Intervals\n```Scheme\n(define (mul-interval x y)\n  (let ((p1 (* (lower-bound x) \n               (lower-bound y)))\n        (p2 (* (lower-bound x) \n               (upper-bound y)))\n        (p3 (* (upper-bound x) \n               (lower-bound y)))\n        (p4 (* (upper-bound x) \n               (upper-bound y))))\n    (make-interval (min p1 p2 p3 p4)\n                   (max p1 p2 p3 p4))))\n```","id":"d660f35db271efa6","x":480,"y":160,"width":440,"height":340}
+	],
+	"edges":[
+		{"id":"a6480f47265c8985","fromNode":"7090714c5df88773","fromSide":"bottom","toNode":"7506af126f887612","toSide":"top"},
+		{"id":"1add63e18b3e34aa","fromNode":"7506af126f887612","fromSide":"bottom","toNode":"2f4f42c18a3d3dbe","toSide":"top"},
+		{"id":"d52fbbe555e5659b","fromNode":"7506af126f887612","fromSide":"bottom","toNode":"cdb71fa01aa51a2f","toSide":"top"},
+		{"id":"2e87b001a8a45cfc","fromNode":"097559f6b54858d2","fromSide":"bottom","toNode":"be0b407818cdc901","toSide":"top"},
+		{"id":"7cdce3fc7956d232","fromNode":"097559f6b54858d2","fromSide":"bottom","toNode":"d660f35db271efa6","toSide":"left"},
+		{"id":"de2000dce632e63b","fromNode":"7090714c5df88773","fromSide":"bottom","toNode":"097559f6b54858d2","toSide":"top"},
+		{"id":"eb3cb0eb23ec08bc","fromNode":"097559f6b54858d2","fromSide":"bottom","toNode":"13d1c5abcc134cae","toSide":"top"}
+	]
+}

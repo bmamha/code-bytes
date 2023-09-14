@@ -1,0 +1,287 @@
+{
+  "main": {
+    "id": "54eba50d7d43e5fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a86327d4d4935bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "397af1b622231a14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mapping over lists.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "198c0a4c00350245",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mapping over lists.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "31e3a3ea59e1f159",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Django.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "387b5c57c57aee95",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Tree Structure 2023-09-13 18.52.46.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "c7866431021f7bac",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Exercise 2.7-2.16 Abstraction of Uncertainty in resistance.canvas",
+                "viewState": {
+                  "x": 710,
+                  "y": -178.0603773584906,
+                  "zoom": -0.15235428503414777
+                }
+              }
+            }
+          },
+          {
+            "id": "2ac01ad93e423430",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "57d16c514ac58682",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Box and List Exercise 2.24 2023-09-13 19.01.38.excalidraw.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5548aa6470631ad9",
+    "type": "split",
+    "children": [
+      {
+        "id": "671173b107e5de19",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9cc27a00e7b58f2f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e73dff54a032dec4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "aca3e87ea284555a",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "9f7e5f29ed86e579",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 233.5
+  },
+  "right": {
+    "id": "5acc1d4a8385d061",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9b4559999e0192f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0590e12aeaf40e5a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Django.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ed08a9112e4245fa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Django.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "90e012a0e76a3bff",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5b06a2e2532f28a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Django.md"
+              }
+            }
+          },
+          {
+            "id": "d6ba31ec3a5ad68a",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Django.md"
+              }
+            }
+          },
+          {
+            "id": "932fa841a79d906a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "31e3a3ea59e1f159",
+  "lastOpenFiles": [
+    "Excalidraw/Tree Structure 2023-09-13 18.52.46.excalidraw.md",
+    "Exercise 2.27 Combination of cars and cdrs.md",
+    "Exercise 2.26 Use of append cons and list on a pair of lists.md",
+    "Exercise 2.24 -interpreter, box-and-pointer structure and interpretation as tree of a lists.md",
+    "Mapping over lists.md",
+    "Excalidraw/Box and List Exercise 2.24 2023-09-13 19.01.38.excalidraw.md",
+    "List and Sequences.md",
+    "linux file system.png",
+    "Exercise 2.7-2.16 Abstraction of Uncertainty in resistance.canvas",
+    "Excalidraw",
+    "Hierarchical Structures.md",
+    "Exercise 2.23 - for-each procedure.md",
+    "Exercise 2.22 - Rewrite square-list using iterative procedure.md",
+    "Exercise 2.20 Applying procedure to multiple arguments.md",
+    "Templates/Cornell Notes Template.md",
+    "Templates/Cornell note taking system.md",
+    "ipython kernel installation.md",
+    "Exercise 2.21 Procedure square-list.md",
+    "Exercise 2.19 - Using Lists for our Count Change Procedure.md",
+    "Data Abstraction.md",
+    "Exercise 2.17 - Find last element of a list.md",
+    "Exercise 2.18 - Reverse list algorithm.md",
+    "Definition of Data.md",
+    "Expressions.md",
+    "Change Counting Program.md",
+    "conda environments.md",
+    "bash ls, cp and ln commands.md",
+    "Exercise 2.6 Church numerals.md",
+    "Seaborn bar chart snippets.md",
+    "Exercise 2.4 - Constructing Pairs.canvas",
+    "Programming Roadmap.canvas",
+    "Templates",
+    "fhs-3.0.pdf",
+    "stats_handout.pdf",
+    "probability_cheatsheet.pdf",
+    "conda-cheatsheet.pdf",
+    "Pandas_Cheat_Sheet.pdf",
+    "Unconfirmed 400584.crdownload"
+  ]
+}
